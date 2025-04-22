@@ -19,4 +19,42 @@ eg: let x=25;
     eg:let a+16;
     a.tostring(2) //'1000'
 
+    Math Methods: 
+        These methods are used to mathematical operations using Math class(default)
+        i.Math.abs(): It is used to remove negitivity of the values 
+        eg: Math.abs(-4) --> 4
+        ii.Math.sqrt(): It is used to return the square root of the value 
+        eg: Math.sqrt(25) --> 5
+        iii.Math.cbrt(): it is used to return the cube root of the value
+        eg: Math.cbrt(27) --> 3
+        iv.Math.ceil(): It is used to return the upper value (nearest upper interger)
+        eg: math.ceil(4.1) --> 5
+        v.Math.floor(): It is used to return the lower value (nearest lower interger)
+        eg: Math.floor(4.8) --> 4
+        vi.Math.round(): It return rounding off to the value 
+        eg: Math.round(4.6) --> 5
+        vii.Math.random: It returns random value between 0 and 1
+        eg: math.random() --> 0.5126
+        viii.Math.max(): It return maximum value amoung available
+        eg: Math.max(5,6,1,3) --> 6
+        ix.Math.min():  It return manimum value amoung available
+        eg: Math.max(5,6,1,3) --> 1
+
+        You can use , log , exp , pi ,etc..,
+
+ii. Strings : Strings are used to store alphanumerical values (combination of letters and number )
+        Strings can be represented in 3 ways 
+        i.single quotation: Strings can represented using single quotations 
+        eg: lest s = 'Pavan';
+
+        ii.Double quotes: Strings can represented using double quotations 
+        eg: lest s = "Pavan";
+        There is no diff between  single or double quotes but can be used inside nested quotes
+        eg: let msg = ' The time is 5'0 clock '
+
+        iii.Backtick: Strings 
+
+
+
+
 
