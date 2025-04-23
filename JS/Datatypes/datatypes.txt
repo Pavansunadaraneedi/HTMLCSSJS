@@ -56,5 +56,39 @@ ii. Strings : Strings are used to store alphanumerical values (combination of le
 
 
 
+String methods: 
+        There are so many methods strings have by default in javascript
+        a. length: it returns the number of characters in a string 
+        b. toUpperCase(): It returns the string into uppercase string 
+        c.toLowerCase(): It returns the string into lowercaswe string
+        d.charAt(): return character at given index
+        e.indexOf(): return the index of given character's first occurence
+        f.LastIndexof: return the index of given character's last occurence
+        g.concat: return combination of given string with original string 
+        h.includes: return an array of valiues split based on delimiter
+        i.split(): return an array of values split based on delimiter 
+        j: join(): return string by combining all elements of the array using delimiter
+        k. startsWith(): return true/false based on whether string is starting with g
+        k: startsWith(): returns true/false based on whether string is starting with given value or not
+        l: endsWith(): returns true/false based on whether string is ending with given value or not
+        m: replace(): returns new string with replacement of first occurence of old string with new string
+        n. replaceAll(): returns new string with replacement of all occurences of old string with new string
+        o: slice(starting,end): returns part of string from starting index to stop index.
+         stop index not defined
+         if only start index given, it takes from start index to end of string 
+
+
+iii. boolean: boolean is a datatype which used to store true(1) or flase(0).
+
+iv. undefined : undefined is the accidental absence of value 
+eg: console.log(a);
+var a=20;
+
+V.null: null is the intentional absence of value , usually used to represent empty/void value for any object key
+eg : var name=null;
+
+
+
+
 
 
