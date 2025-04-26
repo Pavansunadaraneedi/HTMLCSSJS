@@ -1,6 +1,6 @@
 JS course:
 
-i. Basics:
+git i. Basics:
           INtroduction
           variables(let, var, const)
           Datatypes(number, string, boolean, undfined, null)

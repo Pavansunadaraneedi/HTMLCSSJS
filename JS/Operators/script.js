@@ -38,10 +38,9 @@ console.log(a)
 console.log(2 + '2')//22
 console.log(2 + +'2')//4
 // icrement ++ -- increase value by 1
-
-
-
-
+a = 2;
+a++; //a=a+1;
+console.log(a)
 //++a -- pre increment -- update, assign
 //a++ -- post increment -- assign, update 
 
@@ -67,6 +66,6 @@ console.log(c)
   console.log(res)
 
   // js is a dynamically typed language
-  // '4'
+  // '4'+ 2 ==> '4'+'2' ==>'42'
 
 
