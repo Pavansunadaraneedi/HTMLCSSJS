@@ -1,0 +1,7 @@
+Events are used 
+i. event handlers : These event are mentioned in HTML like inline scripting
+eg: <button onclick="incr()">click me </button>
+The problem with event handlers are , we need to check both HTML and JS to understand flow of JS
+ii. Event listeners: 
+Event listeners listens to particular event and runs the function. These events are mentioned in JS
+eg: <button id ="
