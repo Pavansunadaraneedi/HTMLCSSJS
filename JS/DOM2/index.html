@@ -17,26 +17,26 @@
             padding: 20px;
             border-radius: 20px;
             display: flex;
-            gap: 10;
+            flex-direction: column;
+            gap: 10px;
             justify-content: center;
             align-items: center;
             background-color: white;
             color: black;
             max-width: fit-content;
-            display:none;
+            display: none;
         }
     </style>
 </head>
 <body class="dark">
-    
-    <button onclick="changeMode()">change Mode</button>
+    <button onclick="changeMode()">changeMode</button>
     <div id="box">
-        <img src="https://png.pngtree.com/png-clipart/20240903/original/pngtree-mythical-dragons-legends-and-stories-across-cultures-png-image_15926796.png" alt="dragon" height="200">
-        <h2>Dragon</h2>
-
+        <button onclick="closeBox()">close</button>
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" alt="doremon" height="200">
+        <h2>doremon</h2>
     </div>
-    <h1 id="heading" >Welcome to DOM</h1>
-    <button onclick="change ()">Click here</button>
+    <h1 id="heading">Welcome to DOM</h1>
+    <button onclick="change()">click here</button>
     <script src="./script.js"></script>
 </body>
 </html>
